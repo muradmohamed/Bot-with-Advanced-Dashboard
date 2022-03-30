@@ -3,7 +3,7 @@ const config = require('../../config.json');
 
 const guildConfigSchema = mongoose.Schema({
   guildId: {
-    type: mongoose.SchemaTypes.String,
+    type: mongoose.SchemaTypes.String,         
     required: true,
     unique: true
   },
